@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+h1 {
+    color: #333;
+    font-size: 2em;
+}
+p {
+    color: #666;
+    font-size: 1em;
+    max-width: 800px;
+    text-align: center;
+}
+.block {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+}
